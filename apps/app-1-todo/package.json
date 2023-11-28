@@ -1,0 +1,23 @@
+{
+  "name": "app-1-todo",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-native": "*",
+    "@testing-library/react-native": "*",
+    "metro-config": "*",
+    "react-native": "*",
+    "expo": "*",
+    "react-native-svg": "*",
+    "react-native-web": "*",
+    "@nx/expo": "*",
+    "@expo/metro-config": "*",
+    "react-native-svg-transformer": "*",
+    "react": "*",
+    "expo-status-bar": "*"
+  },
+  "scripts": {
+    "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/app-1-todo && cp package-lock.json apps/app-1-todo",
+    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/app-1-todo"
+  }
+}
