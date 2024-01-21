@@ -1,5 +1,5 @@
 {
-  "name": "app-3-meals",
+  "name": "app-4-test-drawer-navigation",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
@@ -14,13 +14,11 @@
     "@expo/metro-config": "*",
     "react-native-svg-transformer": "*",
     "react": "*",
-    "expo-status-bar": "*",
     "@react-navigation/native": "*",
-    "@react-navigation/native-stack": "*",
-    "@expo/vector-icons": "*"
+    "@react-navigation/drawer": "*"
   },
   "scripts": {
-    "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/app-3-meals && cp package-lock.json apps/app-3-meals",
-    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/app-3-meals"
+    "eas-build-pre-install": "cd ../../ && node tools/scripts/eas-build-pre-install.mjs . apps/app-4-test-drawer-navigation && cp package-lock.json apps/app-4-test-drawer-navigation",
+    "eas-build-post-install": "cd ../../ && node tools/scripts/eas-build-post-install.mjs . apps/app-4-test-drawer-navigation"
   }
 }

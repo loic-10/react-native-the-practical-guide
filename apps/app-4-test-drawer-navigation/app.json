@@ -1,11 +1,10 @@
 {
   "expo": {
-    "name": "App3Meals",
-    "slug": "app-3-meals",
+    "name": "App4TestDrawerNavigation",
+    "slug": "app-4-test-drawer-navigation",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "backgroundColor": "#24180f",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
